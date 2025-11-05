@@ -1,6 +1,6 @@
 {
-  "buildCommand": "pnpm run build",
-  "installCommand": "pnpm install --ignore-scripts",
+  "buildCommand": "yarn run build",
+  "installCommand": "yarn install --ignore-engines",
   "outputDirectory": "build",
   "functions": {
     "api/**.js": {
@@ -8,3 +8,4 @@
     }
   }
 }
+
