@@ -1,16 +1,10 @@
 {
-  "buildCommand": "yarn run build",
-  "installCommand": "yarn install --ignore-engines",
+  "buildCommand": "pnpm run build",
+  "installCommand": "pnpm install --ignore-scripts",
+  "outputDirectory": "build",
   "functions": {
-    "api/**/*.js": {
+    "api/**.js": {
       "runtime": "nodejs18.x"
-    }
-  }
-,
-
-  "build": {
-    "env": {
-      "NODE_VERSION": "18.19.0"
     }
   }
 }
