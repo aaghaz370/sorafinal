@@ -6,4 +6,11 @@
       "runtime": "nodejs18.x"
     }
   }
+,
+
+  "build": {
+    "env": {
+      "NODE_VERSION": "18.19.0"
+    }
+  }
 }
