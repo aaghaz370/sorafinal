@@ -1,0 +1,9 @@
+{
+  "buildCommand": "yarn run build",
+  "installCommand": "yarn install --ignore-engines",
+  "functions": {
+    "api/**/*.js": {
+      "runtime": "nodejs18.x"
+    }
+  }
+}
