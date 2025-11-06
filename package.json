@@ -4,8 +4,8 @@
   "sideEffects": false,
   "license": "GPL-3.0",
   "scripts": {
-    "preinstall": "npm install --legacy-peer-deps || true",
-    "build": "npm install --legacy-peer-deps && next build",
+    
+    "build":  "npm install --legacy-peer-deps",
     "build:worker": "echo 'Skipping SW build'",
     "build:remix": "cross-env NODE_ENV=production remix build",
     "clean": "rimraf .cache ./public/build ./public/sw.js ./build",
