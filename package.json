@@ -4,8 +4,8 @@
   "sideEffects": false,
   "license": "GPL-3.0",
   "scripts": {
-    
-    "build":  "npm install --legacy-peer-deps",
+     "install": "npm install --legacy-peer-deps",
+     "build": "next build",
     "build:worker": "echo 'Skipping SW build'",
     "build:remix": "cross-env NODE_ENV=production remix build",
     "clean": "rimraf .cache ./public/build ./public/sw.js ./build",
@@ -18,7 +18,7 @@
     "prebuild": "pnpm clean",
     "prettier": "prettier app --check",
     "prettier:fix": "prettier app --write",
-    "start": "npm run dev",
+    "start": "next start",
     "typecheck": "tsc"
   },
   "dependencies": {
